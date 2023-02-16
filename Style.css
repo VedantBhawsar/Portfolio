@@ -3,6 +3,7 @@
 * {
     scroll-behavior: smooth;
     font-family: 'Poppins';
+    transition: .5s ease-out;
 }
 
 body {
@@ -118,7 +119,7 @@ body {
 }
 
 .home-img img {
-    width: 100%;
+    width: 80%;
     z-index: inherit;
 }
 
@@ -180,7 +181,10 @@ body {
 }
 
 .home-btn button:hover {
-    background-color: rgb(209, 0, 0);
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+
 }
 
 .about {
@@ -259,7 +263,7 @@ body {
 }
 
 .passage {
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
     font-weight: 400;
@@ -501,7 +505,7 @@ body {
     outline: none;
     border: none;
     width: 90%;
-    height: 100%;
+    height: 25px;
     background-color: transparent;
     color: #495057;
     overflow: hidden;
@@ -509,14 +513,13 @@ body {
 }
 
 
-
 .contact-details .II textarea {
     outline: none;
-    width: 90%;
+    width: 90% !important;
     font-size: 15px;
     border-radius: 10px;
     color: #555a60;
-    height: 90%;
+    height: 90% !important;
     overflow: hidden;
     background-color: transparent;
     border: none;
@@ -532,6 +535,20 @@ body {
     font-weight: 500;
     box-shadow: .5px .5px 10px #6c757d;
     margin-bottom: 20px;
+}
+.contact-details button:hover{
+    padding: 9px 22px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+    font-family: Poppins;
 }
 
 
